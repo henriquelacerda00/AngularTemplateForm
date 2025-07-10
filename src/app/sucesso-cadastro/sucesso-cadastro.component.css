@@ -50,3 +50,18 @@
       font-size: 36px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .principal {
+    width: auto;
+    margin: 2em 1em;
+  }
+
+  .principal__titulo {
+    font-size: 22px;
+  }
+
+  .principal__subtitulo {
+    margin: 1.5em 0;
+  }
+}

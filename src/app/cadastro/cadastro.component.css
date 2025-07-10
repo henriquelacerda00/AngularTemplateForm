@@ -94,3 +94,29 @@
   border-color: red;
   color: red;
 }
+
+@media screen and (max-width: 768px) {
+  .principal {
+    width: 80%;
+    margin: 2em 1em;
+  }
+
+  .principal__subtitulo {
+    margin: 2em 0;
+  }
+
+  .formulario__dupla {
+    flex-direction: column;
+  }
+
+  .formulario__campo {
+    margin-right: 0;
+  }
+
+  .formulario__botao,
+  .formulario__botao-erro {
+    float: none;
+    width: 100%;
+    margin-top: 1em;
+  }
+}
